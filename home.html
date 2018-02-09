@@ -16,7 +16,6 @@
 		</script>
 		<title>Ірина Гук - майстер манікюру</title>
 		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
@@ -35,6 +34,26 @@
 		<meta name="robots" content="index,follow" />
 		<meta name="keywords" content="манюкюр, Ізяслав, нігті, френч, нарощування нігтів гель лаком" />
 		<meta name="google-site-verification" content="xvhHh7tIMCT1sIgTk-o7_lZrmWhllwtSCFC9bCl6CWE" />
+		<meta name="mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="application-name" content="Манікюр">
+		<meta name="apple-mobile-web-app-title" content="Манікюр">
+		<meta name="msapplication-starturl" content="/">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<script>
+		if ("serviceWorker" in navigator) { 
+  		window.addEventListener("load", function() {   
+    		navigator.serviceWorker.register("assets/js/sw.js").then(
+      		function(registration) { 
+        		// Registration was successful
+        		console.log("ServiceWorker registration successful with scope: ", registration.scope); }, 
+      		function(err) { 
+        		// registration failed :( 
+        		console.log("ServiceWorker registration failed: ", err); 
+      		}); 
+  		});
+		}
+		</script>
 	</head>
 	<body>
 

@@ -1,6 +1,9 @@
 {
-    "name": "",
-    "short_name": "",
+    "name": "Ira Gug Nails",
+    "short_name": "Манікюр",
+    "description": "Найкращий манікюр від майстра Ірини Гук",
+    "lang": "ua-UA",
+    "start_url": "/",
     "icons": [
         {
             "src": "/images/favicon/android-chrome-192x192.png",
